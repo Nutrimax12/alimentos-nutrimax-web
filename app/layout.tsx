@@ -22,6 +22,13 @@ export default function RootLayout({
       <body className="antialiased">
         {children}
         <WhatsAppFloat />
+       <script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token":"8b4cb30653ab4fb9b42bf400be6cdbdd"}'
+></script>
+
+        
       </body>
     </html>
   );
